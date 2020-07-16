@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: darkgrey;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+svg{
+    cursor: pointer;
+}
